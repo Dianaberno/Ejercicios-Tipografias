@@ -1,0 +1,51 @@
+body{
+    background-color: skyblue;
+}
+.icon-heart{
+    font-size: 100px;
+    color: red;
+}
+.icon-diamond{
+    font-size: 100px;
+    color: skyblue;
+}
+.icon-music
+{
+  font-size: 100px;  
+}
+.icon-cloud
+{
+  font-size: 100px;
+  color: blue;  
+}
+.icon-tv
+{
+  font-size: 100px;
+  color: maroon;  
+}
+.box{
+    width: 280px;
+    height: 400px;
+    box-shadow: 8px 10px 14px -8px #CECECE;
+    float: left;
+    text-align: center;
+    background-color: #F4F1F1;
+    padding-top: 30px;
+    margin: 5px;
+    -webkit-transition: all 1s ease;
+    -moz-animation: all 1s ease;
+    -o-animation: all 1s ease;
+    transition: all 1s ease;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    color: #777777;
+}
+.box:hover{
+    padding-top: 20px;
+    color: white;
+    background-color: #fff;
+    -webkit-transform: scale(1.1);
+    color: #8C8F98;
+    -webkit-transition:all .0.5s ease-in-out;
+}
